@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include case_management *.css
+recursive-include case_management *.csv
+recursive-include case_management *.html
+recursive-include case_management *.ico
+recursive-include case_management *.js
+recursive-include case_management *.json
+recursive-include case_management *.md
+recursive-include case_management *.png
+recursive-include case_management *.py
+recursive-include case_management *.svg
+recursive-include case_management *.txt
+recursive-exclude case_management *.pyc
