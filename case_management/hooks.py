@@ -127,3 +127,9 @@ app_license = "MIT"
 # 	"Task": "case_management.task.get_dashboard_data"
 # }
 
+fixtures = [
+    {
+        "dt": "Role",
+        "filters": [ ["name", "in", ["Developer"]]]
+    }
+]
