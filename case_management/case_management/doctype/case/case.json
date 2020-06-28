@@ -1,4 +1,5 @@
 {
+ "autoname": "field:project_name",
  "creation": "2020-06-28 05:41:02.545846",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -40,7 +41,8 @@
   {
    "fieldname": "project_name",
    "fieldtype": "Data",
-   "label": "Project Name"
+   "label": "Project Name",
+   "unique": 1
   },
   {
    "fieldname": "country",
@@ -209,7 +211,7 @@
    "label": "Has landing page"
   }
  ],
- "modified": "2020-06-28 06:16:04.420744",
+ "modified": "2020-06-28 15:41:21.610434",
  "modified_by": "Administrator",
  "module": "case_management",
  "name": "Case",
